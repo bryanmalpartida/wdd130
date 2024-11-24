@@ -83,7 +83,7 @@ p {
 
 /* HAPPY PEOPLE */
 .happypeople {
-    width: 70%; 
+    width: 90%; 
     height: 70%; 
     border-radius: 15px; 
     
@@ -136,12 +136,6 @@ footer {
     align-items: center;
     justify-content: center;
     text-align: center;
-}
-
-.article {
-    
-    float:right;
-
 }
 
 
