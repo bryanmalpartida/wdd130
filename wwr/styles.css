@@ -1,0 +1,95 @@
+/* styles.css */
+/*COLOR HEADER BACKGROUND #B4CDE4*/
+/*COLOR MAIN BACKGROUND #f0f0ef*/
+/*COLOR FOOTER BACKGROUND #003366*/
+/*COLOR FONT TITLE MAIN  ##003366*/
+
+html, body {
+    height: 100%; /* BODY BACKGROUND ISSUE WHEN HAVING SMALL WINDOW( FIXED WITH FLEX) */
+    margin: 0; 
+}
+
+/*body*/
+body {
+    font-family: 'Roboto' 400 and 700, sans-serif; 
+    background-color: #ffffff; 
+    color: #333; 
+    margin: 0; 
+    flex-direction: column;
+    display: flex;
+}
+
+/* HEADER OPTIONS */
+header {
+    background-color: #B4CDE4; 
+    color: #000000; 
+    padding: 1.5%; 
+    text-align: center; 
+    }
+
+/* LEFT SIDE LOGO */
+.left-logo {
+    max-width: 150px; 
+    height: 10; 
+    float: left; 
+    margin-right: 20px; 
+}
+/*HEADER TITLE*/
+h1 {
+    font-family: "Parkinsans", sans-serif; 
+    font-size: 2.5em; 
+    margin: 1; 
+}
+
+/* NAVIGATION BAR */
+nav {
+    margin: 15px 0;
+    font-size: 1.3em;
+}
+nav a {
+    font-family:"Parkinsans", sans-serif;
+    color: rgb(0, 0, 0); 
+    text-decoration: none; 
+    padding: 0.7%; 
+    transition: background-color 1s; 
+    border-radius:1.1em;
+}
+
+nav a:hover {
+    background-color: #aebed1; 
+    border-radius: 1.1em;
+}
+
+/* MAIN CONTENT*/
+/*MAIN CONTENT*/
+main {
+    flex: 1;
+    background-color: #f0f0ef; 
+    padding: 11%; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+/*MAIN CONTENT TITLE*/
+h2 {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 2em;
+    color: #003366;
+}
+/*MAIN CONTENT INFORMATION*/
+p {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.2em; 
+    line-height: 1.7; 
+}
+
+/* FOOTER*/
+footer {
+    font-size:0.8em;
+    font-family:"Parkinsans", sans-serif;
+    text-align: center; 
+    padding: 1.5%; 
+    background-color: #003366; 
+    color: rgb(255, 255, 255); 
+    position: relative; 
+    bottom: 0; 
+
+}
