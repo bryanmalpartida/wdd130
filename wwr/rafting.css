@@ -36,9 +36,9 @@ header {
 }
 /*HEADER TITLE*/
 h1 {
-    font-family: "Parkinsans", sans-serif; 
-    font-size: 3.5em; 
-    margin: 1; 
+    font-family: "Parkinsans", sans-serif;
+    font-size: 180%; 
+    margin: 0.1%; 
 }
 
 /* NAVIGATION BAR */
@@ -71,29 +71,29 @@ main {
 /*MAIN CONTENT TITLE*/
 h2 {
     font-family: 'Montserrat', sans-serif; 
-    font-size: 2em;
+    font-size: 170%;
     color: #003366;
 }
 /*MAIN CONTENT INFORMATION*/
 p {
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 1.8em; 
+    font-size: 150%; 
     line-height: 1.5; 
 }
 
 /* HAPPY PEOPLE */
 .happypeople {
-    width: 400px; 
-    height: auto; 
+    width: 70%; 
+    height: 70%; 
     border-radius: 15px; 
     
 }
 
 /* SAMPLE IMAGES*/
 .sample1, .sample2, .sample3, .sample4, .sample5 {
-    width: 500px; 
-    height: 500px; 
-    margin: 80px; 
+    width: 30%; 
+    height: 30%; 
+    margin: 1%; 
     
 }
 
@@ -117,8 +117,8 @@ footer {
 
 .hero {
     width: 100%; 
-    height: auto; 
-    margin: 0 px;
+    height: 100%; 
+    margin: 1%;
 
 }
 
@@ -126,7 +126,7 @@ footer {
 .hero {
     border-radius: 50px;
     position: relative;
-    height: 500px; 
+    height: 41%; 
     background-image: url('images/sample.jpg'); 
     background-size: cover; 
     background-position: center; 
