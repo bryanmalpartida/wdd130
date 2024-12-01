@@ -40,6 +40,10 @@ h1 {
     color:#003366;
     height:auto;
     text-align: center; 
+    margin: 0;
+    padding: 0;
+    line-height: 2.5;
+    font-size: 200%;
 }
 
 /* NAVIGATION BAR */
@@ -72,10 +76,11 @@ main {
 }
 /*MAIN CONTENT TITLE*/
 h2 {
-    font-family: 'Montserrat', sans-serif; 
-    font-size: 170%;
+    font-family: "Parkinsans", sans-serif;
+    font-size: 200%;
     color: #003366;
     text-align: center;
+    
 }
 
 /* DOWN THE RIVER SECTION*/
