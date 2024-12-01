@@ -38,7 +38,8 @@ header {
 h1 {
     font-family: "Parkinsans", sans-serif;
     font-size: 180%; 
-    margin: 0.1%; 
+    margin: 0.5%;
+    color:#050101
 }
 
 /* NAVIGATION BAR */
@@ -76,17 +77,17 @@ h2 {
 }
 /*MAIN CONTENT INFORMATION*/
 p {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Montserrat', sans-serif; 
     font-size: 150%; 
     line-height: 1.5; 
 }
 
 /* HAPPY PEOPLE */
 .happypeople {
-    width: 90%; 
-    height: 70%; 
-    border-radius: 15px; 
-    
+    width: 30%; 
+    height: 120px; 
+    float: left; 
+    margin-right: 5%; 
 }
 
 /* SAMPLE IMAGES*/
@@ -116,26 +117,31 @@ footer {
 }
 
 .hero {
-    width: 100%; 
-    height: 100%; 
-    margin: 1%;
-
+    position: relative;
+    height: 20%; 
+    overflow: hidden; 
+    background-image: url("../styles/images/sample4.jpg"); 
+    background-position: center; 
 }
 
-/* HERO */
-.hero {
-    border-radius: 50px;
-    position: relative;
-    height: 41%; 
-    background-image: url('images/sample.jpg'); 
-    background-size: cover; 
-    background-position: center; 
-    color: rgb(0, 0, 0); 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+.heroimage {
+    position: relative; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+    z-index: -1;  
+}
+
+article {
+    position: relative; /* Position the article absolutely */
+    bottom: 5%; /* Adjust as needed */
+    
+    color: white; /* Change to your desired text color */
+    background-color: rgba(0, 0, 0, 0.5); /* Optional background for readability */
+    padding: 3%; /* Add some padding */
+    border-radius: 5px; /* Optional rounded corners */
 }
 
 
