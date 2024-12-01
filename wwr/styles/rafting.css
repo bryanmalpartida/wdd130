@@ -23,16 +23,16 @@ body {
 header {
     background-color: #B4CDE4; 
     color: #000000; 
-    padding: 1.5%; 
+    padding: 0.5%; 
     text-align: center; 
     }
 
 /* LEFT SIDE LOGO */
 .left-logo {
-    max-width: 150px; 
-    height: 100%; 
-    float: left; 
-    margin-right: 20px; 
+    margin: 0 0.25rem 0 1rem;
+	width: 6%;
+	height: auto;
+    float:left;
 }
 /*HEADER TITLE*/
 h1 {
@@ -44,14 +44,15 @@ h1 {
 
 /* NAVIGATION BAR */
 nav {
-    margin: 15px 0;
+    margin: 10px 0;
     font-size: 1.3em;
+
 }
 nav a {
     font-family:"Parkinsans", sans-serif;
     color: rgb(0, 0, 0); 
     text-decoration: none; 
-    padding: 0.7%; 
+    padding: 1%; 
     transition: background-color 1s; 
     border-radius:1.1em;
 }
@@ -84,7 +85,7 @@ p {
 
 /* HAPPY PEOPLE */
 .happypeople {
-    width: 30%; 
+    width: 20%; 
     height: 120px; 
     float: left; 
     margin-right: 5%; 
@@ -118,7 +119,7 @@ footer {
 
 .hero {
     position: relative;
-    height: 20%; 
+    height: 25%; 
     overflow: hidden; 
     background-image: url("../styles/images/sample4.jpg"); 
     background-position: center; 
