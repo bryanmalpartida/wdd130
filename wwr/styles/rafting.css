@@ -119,6 +119,15 @@ p {
     margin-right: 0.5%; 
 }
 
+/* SAMPLE1 AGAIN HOME */
+.sample1again {
+    width: 30%; 
+    height: 50%; 
+    float: right; 
+    margin-right: 0.2%; 
+    padding:20px
+}
+
 /* HISTORY SECTION*/
 .historysection {
     display: flex;
@@ -215,6 +224,109 @@ figcaption {
 .socialmedia img:hover {
     transform: scale(1.1); 
 }
+
+/*NEWSLETTER RELATED*/
+
+.newsletter {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter label {
+    margin: 10px 0 5px;
+}
+
+.newsletter input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.newsletter button {
+    padding: 10px;
+    background-color: #003366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cta {
+    text-align: center;
+    margin: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #003366;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 400px;
+    padding: 20px;
+    
+}
+
+.grid-item {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.grid-item img {
+    max-width: 300px;
+    max-height: 200px;
+    border-radius: 5px;
+}
+
+.h3 {
+    font-family: "Parkinsans", sans-serif;
+    font-size: 200%;
+    color: #003366;
+    text-align: center;
+}
+
+/*TABLE STUFF*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #003366;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+
 
 
 
