@@ -4,10 +4,6 @@
 /*COLOR FOOTER BACKGROUND #003366*/
 /*COLOR FONT TITLE MAIN  ##003366*/
 
-html, body {
-    height: 100%; /* BODY BACKGROUND ISSUE WHEN HAVING SMALL WINDOW( FIXED WITH FLEX) */
-    margin: 0; 
-}
 
 /*body*/
 body {
