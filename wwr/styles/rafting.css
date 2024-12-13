@@ -322,11 +322,12 @@ tr:hover {
 /* Additions for Contact Us page */
 
 #company-info {
+    margin:10px;
     padding: 20px;
     background-color: #f7f7f7;
     border: 1px solid #ddd;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    font-size: 100%;
+    font-size: 13px;
     overflow:auto
      
 }
@@ -420,11 +421,7 @@ max-height:400px;
 float:right;
 }
 
-.divcompinfo {
-overflow:auto;
-margin:10px;
-font-size:13px
-}
+
 
 .meetourteam {
     font-family: "Parkinsans", sans-serif;
