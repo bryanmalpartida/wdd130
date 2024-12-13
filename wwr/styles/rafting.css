@@ -25,15 +25,15 @@ header {
 
 /* LEFT SIDE LOGO */
 .left-logo {
-    margin: 0 0.25rem 0 1rem;
-	width: 6%;
-	height: auto;
+    
+	max-width: 150px;
+	max-height: 15  0px;
     float:left;
 }
 /*HEADER TITLE*/
 h1 {
     font-family: "Parkinsans", sans-serif;
-    color:#003366;
+    color:#000000;
 
 }
 
@@ -71,7 +71,7 @@ h2 {
     font-size: 30px;
     color: #003366;
     text-align: center;
-    margin:0 auto;
+    margin:10px;
  
 }
 
@@ -327,6 +327,8 @@ tr:hover {
     border: 1px solid #ddd;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     font-size: 100%;
+    overflow:auto
+     
 }
 
 #company-info iframe {
@@ -336,15 +338,23 @@ tr:hover {
 }
 
 #employee-profiles {
-    padding: 20px;
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 40px;
+    margin:10px;
+    
 }
 
 .profile {
-    margin: 20px;
+    padding:30px;
+    margin: 30px;
     text-align: center;
+    font-family:"Parkinsans", sans-serif;
+    font-size:medium;
+    color:#000000
+    
 }
 
 .profile img {
@@ -352,12 +362,14 @@ tr:hover {
     height: 200px;
     border-radius: 50%;
     margin-bottom: 10px;
-    padding:50px
+    padding:30px
+    
 
 }
 
 #contact-form {
-    padding: 20px;
+    padding: 40px;
+    margin:10px;
     background-color: #f7f7f7;
     border: 1px solid #ddd;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -408,6 +420,23 @@ max-height:400px;
 float:right;
 }
 
+.divcompinfo {
+overflow:auto;
+margin:10px;
+font-size:13px
+}
+
+.meetourteam {
+    font-family: "Parkinsans", sans-serif;
+    font-size: 30px;
+    font-weight:bold;
+    color: #003366;
+    text-align: center;
+    margin:10px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    overflow:auto
+}
 
 
 
