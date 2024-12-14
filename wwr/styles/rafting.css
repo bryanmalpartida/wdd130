@@ -62,7 +62,7 @@ nav a:hover {
 main {
     flex: 1;
     background-color: #f0f0ef; 
-    padding: 11%; 
+    padding: 1%; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 /*MAIN CONTENT TITLE*/
@@ -77,24 +77,25 @@ h2 {
 
 /* DOWN THE RIVER SECTION*/
 .hero {
-    position: relative;
     overflow: hidden; 
     background-image: url("../styles/images/raft.webp");
     background-size:cover;
     background-position: center;
-    justify-content: center;
-    align-items: center;
     border: 10px solid #ccc; 
     border-radius: 10px; 
+    
 }
 
+
+
 article {
-    position: relative; 
+    display:flex; 
     bottom: 1%; 
     color: rgb(219, 219, 219); 
     background-color: rgba(0, 0, 0, 0.5); 
-    padding: 3%; 
+    padding: 1%; 
     border-radius: 5px;
+    
 }
 /*MAIN CONTENT INFORMATION*/
 p {
@@ -253,7 +254,12 @@ figcaption {
 
 .cta {
     text-align: center;
-    margin: 20px;
+    padding:20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #003366;
+    margin:20px;
+   
 }
 
 .cta-button {
@@ -271,13 +277,36 @@ figcaption {
     gap: 400px;
     padding: 20px;
     
+    
+}
+
+.grid-itemcont {
+    display:flex;
+    background-color: #B4CDE4;
+    border-radius: 5px;
+
+    border: 1px solid #003366;
+    margin:20px;
+    align-items: center;
+}
+
+.grid-itemcont img {
+    display:flex;
+    max-width: 20%;
+    max-height: 200px;
+    border-radius: 5px;
+    justify-content:center;
+    align-items:center;
 }
 
 .grid-item {
-    background-color: white;
+    background-color: #B4CDE4;
     border-radius: 5px;
     padding: 20px;
+    border: 1px solid #003366;
+    margin:20px
 }
+
 
 .grid-item img {
     max-width: 300px;
