@@ -83,6 +83,7 @@ h2 {
     background-position: center;
     border: 10px solid #ccc; 
     border-radius: 10px; 
+    font-size:25px;
     
 }
 
@@ -462,6 +463,11 @@ float:right;
     background-color: #f7f7f7;
     border: 1px solid #ddd;
     overflow:auto
+}
+
+.aboutusy {
+    background: linear-gradient(320deg,#f7f7f7,#003366,#B4CDE4);
+    border:30px;
 }
 
 
